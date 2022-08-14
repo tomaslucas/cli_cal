@@ -37,7 +37,7 @@ def test_with_factorial_sign(monkeypatch):
     assert result == '122'
 
 """
-We left the exception for other momment.
+We leave the exception tests for anothe time.
 
 def test_no_valid_expression_fail(monkeypatch):
     with pytest.raises(NameError):
